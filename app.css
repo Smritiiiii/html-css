@@ -1,0 +1,272 @@
+body{
+    background:#080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.me{
+    width: 200%;
+    height: 200px;
+
+} 
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ 
+ 
+
+nav ul li {
+    display: inline-block;
+     padding: 10px 30px;
+     margin: 10px 20 px;
+
+} 
+ nav ul li a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding-right: 30px;
+    position: relative;
+
+}
+
+nav ul li a::after{
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    bottom: -5px;
+    left: 0;
+    content: '';
+    position: absolute;
+    
+}
+
+nav ul li a:hover::after{
+    width: 70%
+}
+
+.intro{
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 10%;
+    display: flex;
+} 
+
+.intro1{
+    margin-right: 200px;
+}
+
+.intro2{
+    
+    
+    border-radius: 20px;
+
+}
+
+.intro img {
+    height: 270px;
+    width: 200px;
+    border-radius: 20px;
+    
+
+}
+
+.intro h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.about{
+    
+    padding:80px, 0;
+     margin-top: 100px;
+    display: flex; 
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+    
+}
+
+.about-col-2{
+    margin-left: 5%;
+}
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.service{
+    width: 100%;
+    padding: 100px 0px;
+} 
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    margin: 30px auto;
+    text-align: center;
+    
+} 
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+    height:365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    color: #fff;
+font-size: 23px;
+margin-bottom: 25px;
+
+}
+
+.para p{
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: #ff004f;
+    color: #fcfcfc;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #ff004f;
+    cursor: pointer;
+
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: #fcfcfc;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact .button-two{
+    background-color: #ff004f;
+    color: #fcfcfc;
+    text-decoration: none;
+    border: 2ps solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact .button-two:hover
+{
+    background-color:transparent;
+    border: 2px solid #ff004f;
+    cursor: pointer;
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: #fcfcfc;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color: #fcfcfc;
+    width:500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.social{
+    display: flex;
+
+}
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff004f;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #ff004f;
+    bottom: 35px;
+    font-size: 17px;
+}
